@@ -1,0 +1,5 @@
+SELECT
+	* 
+FROM Candidato T01 
+	RIGHT JOIN Empresa T02 ON T02.Id = T01.EmpresaId 
+WHERE T01.Id IS NULL
